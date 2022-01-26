@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-container">
+      <div class="logo">
+        <img src="/images/logo.svg" alt="Logo">
+      </div>
+      <div class="content">
+        <div class="bg-img"></div>
+        <div class="heading">
+          <span class="heading1">We're</span> <span class="heading2">coming soon</span>
+        </div>
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+        <div class="input-box">
+          <form method="post" action="">
+            <input type="email" onblur="validateEmail(this);" id="input" placeholder="Email Address"/>
+            <button type="submit">></button>
+            <img src="images/exclamation.svg" id="exclamation" alt="Exclamation">
+            <p id="message">Please provide a valid email</p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="right-container">
+  
+    </div>
+  </div>
+  <script src="index.js"></script>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/dhirajdalvi2001">Dhiraj Dalvi</a>.
+    </p>
+  </footer>
+</body>
+</html>
